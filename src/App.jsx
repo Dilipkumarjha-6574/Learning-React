@@ -1,12 +1,17 @@
 //! PARENT COMPONENT
 import Navbar from "./components/Navbar";
-
+import Fbc from "./alltopics/typesofcomponents/Fbc";
+import Cbc from "./alltopics/typesofcomponents/Cbc";
+import StateInFbc from "./alltopics/states/StatesInFbc";
+import CounterInFbc from "./alltopics/states/CounterInFbc";
 function App() {
   return (
     <div>
-      <h1>I am App Component</h1>
-      <h1>I am Parent Component</h1>
-      <Navbar />
+      {/* <Navbar /> */}
+      {/* <Fbc />
+      <Cbc /> */}
+      <StateInFbc />
+      <CounterInFbc />
     </div>
   );
 }
