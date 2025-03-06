@@ -7,6 +7,7 @@ import CounterInFbc from "./alltopics/states/CounterInFbc";
 import StatesInCbc from "./alltopics/states/StatesInCbc";
 import CounterInCbc from "./alltopics/states/CounterInCbc";
 import Cart from "./alltopics/props/Cart";
+import PropsParent from "./alltopics/props/PropsParent";
 function App() {
   return (
     <div>
@@ -17,7 +18,8 @@ function App() {
       {/* <CounterInFbc /> */}
       {/* <StatesInCbc /> */}
       {/* <CounterInCbc /> */}
-      <Cart />
+      {/* <Cart /> */}
+      <PropsParent />
     </div>
   );
 }
