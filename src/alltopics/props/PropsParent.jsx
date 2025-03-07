@@ -11,7 +11,7 @@ const PropsParent = () => {
     console.log("Byee");
   };
   function getDataFromChild(val) {
-    console.log(val);
+    // console.log(val);
     setState(val);
   }
   return (

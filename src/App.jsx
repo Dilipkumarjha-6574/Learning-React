@@ -8,6 +8,9 @@ import StatesInCbc from "./alltopics/states/StatesInCbc";
 import CounterInCbc from "./alltopics/states/CounterInCbc";
 import Cart from "./alltopics/props/Cart";
 import PropsParent from "./alltopics/props/PropsParent";
+import PropsDrillingParent from "./alltopics/propsdrilling/PropsDrillingParent";
+import InlineCss from "./alltopics/reactCss/InlineCss";
+import Profile from "./alltopics/reactCss/Profile";
 function App() {
   return (
     <div>
@@ -19,7 +22,10 @@ function App() {
       {/* <StatesInCbc /> */}
       {/* <CounterInCbc /> */}
       {/* <Cart /> */}
-      <PropsParent />
+      {/* <PropsParent /> */}
+      {/* <PropsDrillingParent /> */}
+      {/* <InlineCss /> */}
+      <Profile />
     </div>
   );
 }
